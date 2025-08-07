@@ -1,0 +1,211 @@
+/* decription of what the goal are of the prokect,
+    
+
+
+Project briefing: create an astro project. Needs to included
+Create a timeline for the project and work through week by week
+
+*/
+body{
+    margin: 0 auto;
+    background: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Whole header and navbar area */
+header{
+    background: orange;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    margin: 0 auto;
+    padding: 0;
+} 
+
+.headerContainer{
+    display: flex;
+}
+
+.headerTitle{
+    background: white;
+    margin: 0px 55px; /* topbottom sides */
+}
+
+.headerLogo{
+    margin: auto 55px auto auto; 
+    background: aqua;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    color: red;
+    text-align: center;
+}
+/*
+nav {
+    margin: 0 auto;
+    padding: 0;
+}
+*/
+nav a{
+    color: white;
+}
+
+/* Create a horizontal list with no bullets, no padding/margin */
+ul.navBar {
+    background:linear-gradient(180deg, rgb(99, 4, 107),rgb(175, 8, 105));
+    display: flex; /* makes it a horizontal bar*/
+    list-style-type: none; /* no bullet points on ul part */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each top-level navigation item */
+ul.navBar li {
+    background:yellowgreen;
+    position: relative; /* This allows the dropdown to be positioned below */
+}
+
+/* Style the nav links on the bar*/
+ul.navBar li a {
+    display: flex;
+    padding: 10px 20px;
+    text-decoration: none; /*removes underline*/
+}
+
+.homeButton {
+    margin-left: 40px;
+}
+
+/* Changes made to the nav bar item when hovering over it */
+ul.navBar li a:hover {
+    background-color: rgba(255, 255, 255,.2);
+}
+
+/* The dropdown menu - initially hidden through display prompt*/
+ul.dropdown {
+  animation: fadeIn .3s ease-in 1;
+  display: none; /* Hidden until interacted with in "ul.dropdown li a" */
+  position: absolute; /* Will always be positioned below the parent --> <li> */
+  top: 100%; /* Pushes it just below the parent */
+  box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.2); 
+  background: linear-gradient(to bottom, rgb(128, 8, 78), rgb(185, 15, 114));
+  list-style-type: none; /* Removes the bullet points in the drop down */
+  padding: 0;
+  min-width: 150px; /* Ensures consistent dropdown width */
+  border-radius: 0px 0px 6px 6px;
+}
+
+@keyframes fadeIn{
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+/* Show the dropdown when hovering over the parent <li> */
+li:hover > ul.dropdown {
+  display: block;
+}
+
+/* Style the dropdown links */
+ul.dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Hover effect for dropdown items */
+ul.dropdown li a:hover {
+  background-color: rgba(255, 255, 255,.2);
+}
+
+ul.navBar li.navRightSide {
+    margin: auto 40px auto auto;
+    color: white;
+    padding: 10px 20px;
+}
+
+.mainBody{
+    padding-top: 105px;
+    background: aqua;
+}
+
+/* Work on this after Monday's class
+.openingBlock{
+    display: flex;
+}
+*/
+
+.openingText, .boxes{
+    max-width: 1080px;
+}
+
+.openingText{
+    background: purple;
+    color: white;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 20px 20px 40px;
+}
+
+.openingText h1{
+    background: blue;
+    margin: 0 0 20px;
+    padding: 0 40px;
+}
+
+.openingText p{
+    background: black;
+    font-size:18px;
+    padding:0 40px;
+}
+
+.boxes{
+    background: red;
+    margin:0 auto;
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+}
+
+.boxes a{
+    text-decoration: none;
+}
+
+.leftBox, .midBox, .rightBox{
+    transition: all 0.2s ease-in-out;
+    width: 30%;
+    max-width: 370px;
+    height: 340px;
+    margin: 10px auto;
+    color:white;
+    text-align: center;
+}
+.leftBox{
+    background: green;
+}
+.midBox{
+    background: teal;
+}
+.rightBox{
+    background: yellow;
+}
+
+.leftBox:hover, .midBox:hover, .rightBox:hover{
+    transition: all 0.5s ease-in-out;
+    width: 50%;
+}
+
+footer{
+    color: white;
+    background:linear-gradient(180deg, rgb(99, 4, 107),rgb(175, 8, 105));
+}
+
+.footerBar p{
+    margin: 0 20px 20px auto;
+    padding: 10px 20px;
+    text-align: right;
+}
