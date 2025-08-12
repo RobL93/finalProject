@@ -1,12 +1,4 @@
-/* decription of what the goal are of the prokect,
-    
-
-
-Project briefing: create an astro project. Needs to included
-Create a timeline for the project and work through week by week
-
-*/
-body{
+body.mainPage{
     margin: 0 auto;
     background: pink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
