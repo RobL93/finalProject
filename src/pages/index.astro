@@ -101,7 +101,7 @@ import Footer from '../components/footer.astro';
           <!-- Transport Card -->
           <div class="col-md-4 cardWrapper">
             <div class="card h-100 text-center featureCard">
-              <img src="/finalProject/images/transport.jpg" class="card-img-top" alt="Dunshaughlin 109 bus">
+              <img src={`${Astro.base}/images/transport.jpg`} class="card-img-top" alt="Dunshaughlin 109 bus">
               <div class="card-body">
                 <h5 class="card-title">Transport</h5>
                 <p class="card-text">Find out how to get in, out and around Dunshaughlin.</p>
@@ -128,6 +128,6 @@ import Footer from '../components/footer.astro';
 
     <!-- Bootstrap JS called -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="/finalProject/src/scripts/script.js"></script>
+    <script src={`${Astro.base}/src/scripts/script.js`} defer></script>
   </body>
 </html>
