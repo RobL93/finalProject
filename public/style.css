@@ -85,10 +85,10 @@ footer {
 }
 
 .fixedImageSection {
-  background: url('/finalProject/images/fixedImage.jpg') no-repeat center center/cover; /* The image called will stretch to cover the entire screen */
+  background: url('/finalProject/images/fixedImage.jpg') no-repeat center center/cover;
   height: 500px;
   position: relative; 
-  background-attachment: fixed; /* Locked in place to give the scrolling effect */
+  background-attachment: fixed;
 }
 
 .fixedImageSection .darkOverlay {
