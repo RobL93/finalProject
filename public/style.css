@@ -85,7 +85,7 @@ footer {
 }
 
 .fixedImageSection {
-  background: url('/images/fixedImage.jpg') no-repeat center center/cover; /* The image called will stretch to cover the entire screen */
+  background: url('/finalProject/images/fixedImage.jpg') no-repeat center center/cover; /* The image called will stretch to cover the entire screen */
   height: 500px;
   position: relative; 
   background-attachment: fixed; /* Locked in place to give the scrolling effect */
