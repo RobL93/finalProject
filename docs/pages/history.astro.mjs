@@ -1,7 +1,7 @@
-import { c as createComponent, r as renderTemplate, a as renderScript, b as renderComponent, d as renderHead } from '../chunks/astro/server_DBnCGGyt.mjs';
+import { c as createComponent, r as renderTemplate, a as renderScript, b as renderComponent, d as renderHead } from '../chunks/astro/server_Ccqt8kAR.mjs';
 import 'kleur/colors';
 import 'html-escaper';
-import { $ as $$Footer, a as $$Header } from '../chunks/footer_DOUP0mn7.mjs';
+import { $ as $$Footer, a as $$Header } from '../chunks/footer_B4Ha7fHX.mjs';
 export { renderers } from '../renderers.mjs';
 
 var __freeze = Object.freeze;
