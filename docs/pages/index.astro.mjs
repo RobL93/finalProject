@@ -1,0 +1,33 @@
+import { e as createAstro, c as createComponent, r as renderTemplate, f as addAttribute, b as renderComponent, d as renderHead } from '../chunks/astro/server_DBnCGGyt.mjs';
+import 'kleur/colors';
+import 'html-escaper';
+import { $ as $$Footer, a as $$Header } from '../chunks/footer_DOUP0mn7.mjs';
+export { renderers } from '../renderers.mjs';
+
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
+var _a;
+const $$Astro = createAstro("https://RobL93.github.io/finalProject/");
+const $$Index = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$Index;
+  return renderTemplate(_a || (_a = __template(['<!-- This is the home/index/landing page for the website. It opens by importing\n    the header and footer. This is done throughout all the pages to keep the \n    pages looking consistent and with easy navigation. All the pages use bootstrap \n    for the formatting/layout/arranging as I found that through my time on the \n    course that was the easier option for me compared to writing everything out\n    and then rearranging it on CSS later. --><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dunshaughlin - Home</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="/finalProject/style.css">', "</head> <body> ", ` <!-- Header imported from called astro file at the top of page --> <main class="flex-fill-container"> <section class="text-center ptHeaderOffset"> <div class="container"> <h1 class="display-4">Welcome tos Dunshaughlin</h1> </div> </section> <!-- Carousel Section that brings the images in to work with the  carousel and lightbox --> <section class="py-6 text-center"> <div class="container"> <div class="carouselWrapper mx-auto"> <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel"> <div class="carousel-inner"> <div class="carousel-item active"> <img src="/finalProject/images/DHome01.jpg" class="d-block w-100 rounded" alt="Dunshaughlin Main Street Lower"> </div> <div class="carousel-item"> <img src="/finalProject/images/DHome02.webp" class="d-block w-100 rounded" alt="The Park"> </div> <div class="carousel-item"> <img src="/finalProject/images/DHome03.jpg" class="d-block w-100 rounded" alt="Dunshaughlin Main Street Upper"> </div> </div> <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button> </div> </div> </div> </section> <!-- Fixed Background Image Section with white text overlayed on top of the image --> <section class="fixedImageSection my-5"> <div class="darkOverlay"></div> <div class="overlayText text-center text-white"> <h2 class="display-6 fw-bold">Discover the charm of Dunshaughlin</h2> <p class="lead">
+A vibrant town in the heart of County Meath. From its historic roots to its thriving modern community,
+          there's always something new to explore.
+</p> </div> </section> <!-- Feature Cards Section to give users another option to navigate the site --> <section class="pb-5"> <div class="container"> <div class="row g-4 featureCardsRow"> <!-- History Card --> <div class="col-md-4 cardWrapper"> <div class="card h-100 text-center featureCard"> <img src="/finalProject/images/history.jpeg" class="card-img-top" alt="Old Dunshaughlin"> <div class="card-body"> <h5 class="card-title">History</h5> <p class="card-text">Learn and quiz yourself about Dunshaughlin's fascinating past.</p> <a href="/finalProject/history" class="btn btn-primary">Explore our History</a> </div> </div> </div> <!-- Events Card --> <div class="col-md-4 cardWrapper"> <div class="card h-100 text-center featureCard"> <img src="/finalProject/images/events.jpg" class="card-img-top" alt="Festivities in the Park"> <div class="card-body"> <h5 class="card-title">Events</h5> <p class="card-text">See upcoming, past events and current teams in the town.</p> <a href="/finalProject/events" class="btn btn-primary">View Events</a> </div> </div> </div> <!-- Transport Card --> <div class="col-md-4 cardWrapper"> <div class="card h-100 text-center featureCard"> <img`, ' class="card-img-top" alt="Dunshaughlin 109 bus"> <div class="card-body"> <h5 class="card-title">Transport</h5> <p class="card-text">Find out how to get in, out and around Dunshaughlin.</p> <a href="/finalProject/transport" class="btn btn-primary">Get Directions</a> </div> </div> </div> </div> </div> </section> <!-- Lightbox Overlay --> <div id="lightboxOverlay" class="lightboxOverlay"> <span id="lightboxClose" class="lightboxClose">&times;</span> <img id="lightboxImage" class="lightboxImage" src="" alt="Expanded Image"> <!-- Navigation Arrows --> <a class="lightboxPrev">&#10094;</a> <a class="lightboxNext">&#10095;</a> </div> </main> ', ' <!-- Footer called at the bottom of the page from the file imported at the beginning --> <!-- Bootstrap JS called --> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer><\/script> <script', " defer><\/script> </body> </html>"])), renderHead(), renderComponent($$result, "Header", $$Header, {}), addAttribute(`${Astro2.base}/images/transport.jpg`, "src"), renderComponent($$result, "Footer", $$Footer, {}), addAttribute(`${Astro2.base}/src/scripts/script.js`, "src"));
+}, "D:/My Stuff/College Bits/Project/FProject/finalProject/src/pages/index.astro", void 0);
+
+const $$file = "D:/My Stuff/College Bits/Project/FProject/finalProject/src/pages/index.astro";
+const $$url = "/finalProject";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Index,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

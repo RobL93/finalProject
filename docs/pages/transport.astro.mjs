@@ -1,0 +1,36 @@
+import { c as createComponent, r as renderTemplate, a as renderScript, b as renderComponent, d as renderHead } from '../chunks/astro/server_DBnCGGyt.mjs';
+import 'kleur/colors';
+import 'html-escaper';
+import { $ as $$Footer, a as $$Header } from '../chunks/footer_DOUP0mn7.mjs';
+export { renderers } from '../renderers.mjs';
+
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
+var _a;
+const $$Transport = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate(_a || (_a = __template(['<!-- This page was created to show some of the skills like calling from other sites\n    such as the Google maps embedding being centered around the town and the weather API\n    which was a requirement in this project --><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dunshaughlin - Transport</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="/finalProject/style.css">', '</head> <body class="mainPage"> ', ` <!-- Calling the header.astro file --> <main class="flex-fill container"> <!-- Section 1: Intro --> <section class="mb-5"> <h2>Getting to Our Town</h2> <p>
+There are multiple ways to reach our town whether you're traveling by bus, train, or car.
+          Here's a quick overview of your options.
+</p> </section> <!-- Section 2: Transport Info Grid --> <section class="row mb-5"> <div class="col-md-4 mb-3"> <div class="card h-100 text-center"> <div class="card-body"> <h5 class="card-title">Bus</h5> <p class="card-text">
+Main bus routes connect the town to nearby cities. Approximate travel time: 45 mins.
+</p> </div> </div> </div> <div class="col-md-4 mb-3"> <div class="card h-100 text-center"> <div class="card-body"> <h5 class="card-title">Train</h5> <p class="card-text">
+Direct train services available from the regional station to the town center.
+</p> </div> </div> </div> <div class="col-md-4 mb-3"> <div class="card h-100 text-center"> <div class="card-body"> <h5 class="card-title">Car</h5> <p class="card-text">
+Major highways connect the town with surrounding areas. Parking available downtown.
+</p> </div> </div> </div> </section> <!-- Section 3: Google Map Embed, code taken directed from google maps site --> <section class="mb-5"> <h3>Town Location</h3> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18979.812108548595!2d-6.560851980682134!3d53.513546148643485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486769792c166101%3A0xa00c7a997317950!2sDunshaughlin%2C%20Co.%20Meath!5e0!3m2!1sen!2sie!4v1756133191567!5m2!1sen!2sie" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </section> <!-- Section 4: Weather API more detailed in JS page --> <section class="mb-5"> <h3>Local Weather</h3> <div id="weather" class="d-flex justify-content-center"></div> </section> </main> `, ' <!-- Calling the footer.astro file --> <!-- Bootstrap linking at the end of the page --> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer><\/script> ', " </body> </html>"])), renderHead(), renderComponent($$result, "Header", $$Header, {}), renderComponent($$result, "Footer", $$Footer, {}), renderScript($$result, "D:/My Stuff/College Bits/Project/FProject/finalProject/src/pages/transport.astro?astro&type=script&index=0&lang.ts"));
+}, "D:/My Stuff/College Bits/Project/FProject/finalProject/src/pages/transport.astro", void 0);
+
+const $$file = "D:/My Stuff/College Bits/Project/FProject/finalProject/src/pages/transport.astro";
+const $$url = "/finalProject/transport";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Transport,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };
